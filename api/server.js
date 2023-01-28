@@ -27,7 +27,7 @@ const fileSystem = require("fs")
 // sockets are used for realtime communication
 global.socketIO = require("socket.io")(http, {
     cors: {
-        origin: "*"
+        origin: ["http://localhost:8080"]
     }
 })
 global.users = []

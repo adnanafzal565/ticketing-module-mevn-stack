@@ -11,8 +11,8 @@ Run the following commands inside "api" folder one-by-one:
 
 Run the following commands in "web" folder one-by-one:
 
-	> npm install -g serve
-	> serve -s dist
+	> npm update
+	> npm run serve
 
 This will show you the URL that you need to run in the browser to visit the project.
 
